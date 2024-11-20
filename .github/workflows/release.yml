@@ -60,3 +60,4 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           tag: ${{ steps.version.outputs.version }}
           
+          
