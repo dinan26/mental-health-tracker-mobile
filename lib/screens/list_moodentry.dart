@@ -36,7 +36,7 @@ class _MoodEntryPageState extends State<MoodEntryPage> {
       appBar: AppBar(
         title: const Text('Mood Entry List'),
       ),
-      drawer: const LeftDrawer(),
+      // drawer: const LeftDrawer(),
       body: FutureBuilder(
         future: fetchMood(request),
         builder: (context, AsyncSnapshot snapshot) {
